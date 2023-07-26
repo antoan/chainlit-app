@@ -14,7 +14,7 @@ from langchain.chat_models import ChatOpenAI
 import chainlit as cl
 
 
-openai.api_key = "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" #os.environ.get("OPENAI_API_KEY")
+openai.api_key = "mock" #os.environ.get("OPENAI_API_KEY")
 
 STREAMING = True
 
